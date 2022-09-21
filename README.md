@@ -3,13 +3,26 @@
 
 ### create DATABASE "DatabaseName" sql de komut çalıştırılır.
 
+![image](https://user-images.githubusercontent.com/108563288/191586122-f3947e41-7ff9-4bbe-ad05-74ba99f227f0.png)
+
+
 ### Tablolar otomatik oluşacaktır.
 
 ### appsetting.json dosyasında kendi konfigrasyon adreslerimiz yazılır.
 
+![image](https://user-images.githubusercontent.com/108563288/191586214-e1b1bb48-ba6c-4a9d-98a4-00d40ee5de2b.png)
+
+![image](https://user-images.githubusercontent.com/108563288/191586274-a258bce5-0059-4419-ba88-efbf9e9d6dbc.png)
+
+
 ### frontEnd için npm install komutu ile bağımlılıklar yüklenir.
 
+![image](https://user-images.githubusercontent.com/108563288/191586434-3c8bdef1-8008-4239-805c-1132531e648d.png)
+
+
 ### npm start ile React projesi Localhostta kaldırılır.
+
+![image](https://user-images.githubusercontent.com/108563288/191586369-8c225f14-acde-4253-a3cb-aab207871f3f.png)
 
 ### üyelik kaydı oluşturarak işlemler yapmaya başlayabilirsiniz.
 
