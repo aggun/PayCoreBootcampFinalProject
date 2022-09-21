@@ -1,4 +1,17 @@
 # PayCore-Bootcamp-Final-Project
+# Proje ayağa kalkması için gereksinimler
+
+### create DATABASE "DatabaseName" sql de komut çalıştırılır.
+
+### Tablolar otomatik oluşacaktır.
+
+### appsetting.json dosyasında kendi konfigrasyon adreslerimiz yazılır.
+
+### frontEnd için npm install komutu ile bağımlılıklar yüklenir.
+
+### npm start ile React projesi Localhostta kaldırılır.
+
+### üyelik kaydı oluşturarak işlemler yapmaya başlayabilirsiniz.
 
 ### Proje 
 Untitled
