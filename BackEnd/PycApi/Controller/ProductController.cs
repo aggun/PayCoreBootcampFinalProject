@@ -14,7 +14,7 @@ namespace PycApi.Controller
 {
     [Route("api/nhb/[controller]")]
     [ApiController]
-
+    [Authorize]
     public class ProductController : ControllerBase
     {
         private readonly IProductService productService;
@@ -50,7 +50,7 @@ namespace PycApi.Controller
             }
         }
 
-        [Authorize]
+        
         [HttpDelete("{id}")]
         public IActionResult Delete(int id)
         {
@@ -58,7 +58,7 @@ namespace PycApi.Controller
             productService.Remove(id);
             return NoContent();
         }
-        [Authorize]
+        
         [HttpPost]
         public IActionResult Create([FromBody] ProductDto dto)
         {
