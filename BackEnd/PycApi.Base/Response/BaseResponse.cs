@@ -32,8 +32,6 @@ namespace PycApi.Base
                 Message = message;
             }
         }
-
-
     }
 }
 
