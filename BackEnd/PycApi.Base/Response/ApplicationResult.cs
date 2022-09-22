@@ -26,6 +26,5 @@ namespace PycApi.Base
         public DateTime ResponseTime { get; set; } = DateTime.UtcNow;
         public bool Succeeded { get; set; }
         public string ErrorMessage { get; set; }
-
     }
 }
