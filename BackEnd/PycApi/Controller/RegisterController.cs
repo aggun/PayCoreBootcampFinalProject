@@ -19,7 +19,6 @@ namespace PycApi.Controller
         private readonly IAccountService accountService;
         private readonly RabbitMQPublisher rabbitMQPublisher;
 
-
         public RegisterController(IAccountService accountService, RabbitMQPublisher rabbitMQPublisher)
         {
             this.accountService = accountService;
