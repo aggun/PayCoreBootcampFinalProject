@@ -43,6 +43,5 @@ namespace PycApi.TestX
             var viewResult = Assert.IsType<List<Category>>(result);
             Assert.Equal(2, viewResult.Count);
         }
-
     }
 }
