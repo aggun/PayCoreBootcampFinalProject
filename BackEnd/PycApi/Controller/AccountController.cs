@@ -56,8 +56,5 @@ namespace PycApi.Controller
             offerService.Update(confirm);
             return Ok();
         }
-
-
-
     }
 }
