@@ -5,10 +5,13 @@
 
 ![image](https://user-images.githubusercontent.com/108563288/191586122-f3947e41-7ff9-4bbe-ad05-74ba99f227f0.png)
 
+### appsetting.json dosyasında kendi konfigrasyon adreslerimiz yazılır.
+
+### Proje Start edilir.
 
 ### Tablolar otomatik oluşacaktır.
 
-### appsetting.json dosyasında kendi konfigrasyon adreslerimiz yazılır.
+
 
 ![image](https://user-images.githubusercontent.com/108563288/191586214-e1b1bb48-ba6c-4a9d-98a4-00d40ee5de2b.png)
 
