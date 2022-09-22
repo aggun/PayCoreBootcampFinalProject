@@ -46,7 +46,6 @@ namespace PycApi.Controller
             product.isOfferable = false;
             productService.Update(product);
 
-
             return Ok(order);
         }
     }
