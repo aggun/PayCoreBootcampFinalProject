@@ -20,10 +20,6 @@ namespace PycApi.Service
 
             hibernateRepository = new HibernateRepository<Category>(session);
         }
-
-
-
-
     }
 }
 
