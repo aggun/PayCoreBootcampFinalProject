@@ -25,7 +25,6 @@ namespace PycApi.RabbitMqServices
             properties.Persistent = true;
 
             channel.BasicPublish(exchange: RabbitMQClientService.ExchangeName, routingKey: RabbitMQClientService.RoutingWatermark, basicProperties: properties, body: bodyByte);
-
         }
     }
 }
