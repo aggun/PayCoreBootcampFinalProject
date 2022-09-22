@@ -94,6 +94,5 @@ namespace PycApi.Data
         {
             return session.Query<T>().Where(expression).ToList();
         }
-
     }
 }
