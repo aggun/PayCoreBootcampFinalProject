@@ -20,7 +20,6 @@ namespace PycApi.Controller
         private readonly IProductService productService;
         private readonly IMapper mapper;
 
-
         public ProductController(IProductService productService, IMapper mapper)
         {
             this.mapper = mapper;
@@ -54,7 +53,6 @@ namespace PycApi.Controller
         [HttpDelete("{id}")]
         public IActionResult Delete(int id)
         {
-
             productService.Remove(id);
             return NoContent();
         }
