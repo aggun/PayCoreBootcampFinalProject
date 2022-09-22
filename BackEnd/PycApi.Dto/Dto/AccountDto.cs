@@ -5,7 +5,6 @@ namespace PycApi.Dto.Dto
 {
     public class AccountDto
     {
-
         [Required]
         public string Password { get; set; }
 
@@ -18,6 +17,5 @@ namespace PycApi.Dto.Dto
         [EmailAddress]
         [MaxLength(100)]
         public string Email { get; set; }
-
     }
 }
