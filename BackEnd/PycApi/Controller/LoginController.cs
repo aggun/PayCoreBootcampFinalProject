@@ -23,7 +23,5 @@ namespace PycApi.Controller
             var response = tokenService.GenerateToken(request);
             return (response.Success == false) ? BadRequest(response) : Ok(response.Response);
         }
-
-
     }
 }
