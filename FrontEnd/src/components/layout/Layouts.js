@@ -78,7 +78,6 @@ export default class layouts extends Component {
   render() {
     const { currentUser, showModeratorBoard } = this.state;
 
-
     return (
       <div className="anadiv" >
 
