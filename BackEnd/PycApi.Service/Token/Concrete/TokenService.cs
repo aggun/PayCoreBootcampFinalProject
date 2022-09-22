@@ -30,8 +30,6 @@ namespace PycApi.Service
             hibernateRepository = new HibernateRepository<Account>(session);
         }
 
-
-
         public BaseResponse<TokenResponse> GenerateToken(TokenRequest tokenRequest)
         {
             try
