@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace PycApi.Dto.Dto
 {
+
     public class SmtpConfigDto
     {
         public string Host { get; set; }
