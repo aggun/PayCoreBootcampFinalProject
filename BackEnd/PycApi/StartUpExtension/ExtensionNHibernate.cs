@@ -41,9 +41,6 @@ namespace PycApi.StartUpExtension
             services.AddScoped(factory => sessionFactory.OpenSession());
 
             return services;
-        }
-      
-
-       
+        }  
     }
 }
