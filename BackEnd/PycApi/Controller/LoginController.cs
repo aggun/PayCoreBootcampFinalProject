@@ -2,7 +2,6 @@
 using PycApi.Base;
 using PycApi.Service;
 
-
 namespace PycApi.Controller
 {
     [ApiController]
