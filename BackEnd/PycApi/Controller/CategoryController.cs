@@ -21,7 +21,6 @@ namespace PycApi.Controller
         private readonly IProductService productService;
         private readonly IMapper mapper;
 
-
         public CategoryController(ICategoryService categoryService, IProductService productService, IMapper mapper)
         {
             this.mapper = mapper;
@@ -69,7 +68,6 @@ namespace PycApi.Controller
             return Ok(categoryDtos);
         }
         
-
         [HttpPut("{id}")]
         public IActionResult Update(int id, [FromBody] CategoryDto dto)
         {
@@ -79,7 +77,6 @@ namespace PycApi.Controller
                 up.Response.CategoryName = dto.CategoryName;
                 up.Response.Id = id;
                 var categoryDtos = categoryService.Update(up.Response);
-
                 return Ok(categoryDtos);
             }
             catch (Exception ex)
@@ -88,7 +85,6 @@ namespace PycApi.Controller
                 return BadRequest(ex.Message);
             }
         }
-
     }
 }
 
