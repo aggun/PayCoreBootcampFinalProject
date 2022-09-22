@@ -14,6 +14,5 @@ namespace PycApi.Data.Model
         public virtual string BidderAccount { get; set; }
         public virtual string ProductOwner { get; set; }
         public virtual bool Approval { get; set; }
-
     }
 }
