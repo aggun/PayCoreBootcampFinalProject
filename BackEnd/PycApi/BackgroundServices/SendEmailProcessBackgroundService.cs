@@ -50,18 +50,13 @@ namespace PycApi.BackgroundServices
 
         private Task Consumer_Received(object sender, BasicDeliverEventArgs @event)
         {
-
-
-            Task.Delay(10000).Wait();
-
+            Task.Delay(2000).Wait();
 
             try
             {
                 var SendEmailEvent = JsonSerializer.Deserialize<SendEmailEvent>(Encoding.UTF8.GetString(@event.Body.ToArray()));
 
-
                 using var client = CreateSmtpClient();
-
 
                 MailMessageDto mailMessageDto = new MailMessageDto
                 {
@@ -107,7 +102,6 @@ namespace PycApi.BackgroundServices
             using var client = CreateSmtpClient();
             await client.SendMailAsync(mailMessage);
         }
-
 
     }
 }
