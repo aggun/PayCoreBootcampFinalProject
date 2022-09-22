@@ -51,7 +51,6 @@ namespace PycApi.RabbitMqServices
             connection?.Close();
             connection?.Dispose();
             logger.LogInformation("RabbitMQ ile bağlantı koptu...");
-
         }
     }
 }
